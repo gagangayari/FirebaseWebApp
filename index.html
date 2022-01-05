@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<h1>
+    <center>BTR Elections</center>
+</h1>
+
+
+<div >
+    <span>Name &nbsp;</span>
+    <input type="text"> &ensp; 
+    <span>  Highest Qualification</span>
+    <select name="qualification">
+        <option>X</option>
+        <option>XII</option>
+        <option>Graduation</option>
+        <option>Post Graduation</option>
+        <option>Phd and above</option>
+
+    </select>
+
+</div>
+
+<hr>
+<span> Choose your party </span>
+<select name="Political_parties" id="PP" method=>
+    <option> BPF</option>
+    <option> UPPL</option>
+    <option> BJP</option>
+    <option> AGP</option>
+    <option> Congress</option>
+    <option> AIUDF</option>
+    <option> GSP</option>
+
+
+</select>
+
+<span>
+<form action="/action_page.php" method="post">
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+</form>
+<!-- <body>
+    <script>
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "firebase/app";
+        import { getAnalytics } from "firebase/analytics";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+        apiKey: "AIzaSyDc8gN88vEVwQb8OCUKLsaA9YoKPQT-b8I",
+        authDomain: "formbtr.firebaseapp.com",
+        projectId: "formbtr",
+        storageBucket: "formbtr.appspot.com",
+        messagingSenderId: "185761752170",
+        appId: "1:185761752170:web:18b2089c59b626c4581613",
+        measurementId: "G-2JX1LCPP10"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
+</body> -->
+
+<form>
+    Address : <input type="text" name="address">
+    District : <input type="text" name="district">
+</form>
+    
+</span>
+
+
+<center>
+    <button type="button">Submit</button>
+</center>
