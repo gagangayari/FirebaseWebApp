@@ -44,8 +44,10 @@
     <label for="lname">Last name:</label>
     <input type="text" id="lname" name="lname"><br><br>
 </form>
-<!-- <body>
-    <script>
+<body>
+    <script> src ='test.js'</script>
+
+    <!-- <script>
         // Import the functions you need from the SDKs you need
         import { initializeApp } from "firebase/app";
         import { getAnalytics } from "firebase/analytics";
@@ -67,8 +69,8 @@
         // Initialize Firebase
         const app = initializeApp(firebaseConfig);
         const analytics = getAnalytics(app);
-    </script>
-</body> -->
+    </script> -->
+</body>
 
 <form>
     Address : <input type="text" name="address">
@@ -79,5 +81,11 @@
 
 
 <center>
-    <button type="button">Submit</button>
+    <button id="button1"" onclick="submit()" type="button">Submit</button>
+    <script>
+        function submit(){
+    // var submit = document.getElementById('button1');
+           window.alert("Submitted");
+        }
+    </script>
 </center>
